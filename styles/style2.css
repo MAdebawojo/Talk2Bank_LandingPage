@@ -1,0 +1,208 @@
+#jumbotron-background-image
+{
+    background-image: url("../images/section1_image.JPG");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: 100vh;
+    
+
+    /* background-color: purple; */
+}
+
+.jumbotron 
+{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: aquamarine; */
+    width: 100%;
+ }
+ .jumbotron-text
+ {
+     width: 80%;
+     margin: 0 auto;
+ }
+#jumbotron-background-image img 
+{
+    max-width: 60%;
+    padding: .6em;
+    object-fit: contain;
+    margin-top: 100px;
+    display: block;
+    /* background-color: red; */
+    margin: 1em auto 0 auto;
+    /* animation: rotateAnimation 2s infinite alternate; */
+    /* transition: transform 2s ease-in-out; */
+
+  }
+  
+  /* @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+
+  #jumbotron-background-image img:hover {
+    /* transform: rotate(360deg); */
+  }
+  /* #macbook-image {
+    animation-name: rotate; */
+    /* animation-duration: 1s; */
+     /* Adjust the duration as needed */
+    /* animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  
+.jumbotron-text h1
+{
+    /* padding: 1em; */
+    font-weight: 800;
+    font-size: 2.1em;
+    /* background-color: aqua; */
+}
+
+.jumbotron-text p
+{
+    font-weight: 500;
+    font-size: 1.4em;
+    /* background-color: bisque; */
+    /* padding: 1em; */
+
+}
+
+@media (max-width: 767px)
+{
+    #jumbotron-background-image img 
+    {
+        max-width: 100%;
+        padding: .6em;
+        object-fit: contain;
+        margin-top: 100px;
+        display: block;
+        /* animation: rotateAnimation 2s infinite alternate; */
+        /* transition: transform 2s ease-in-out; */
+  }
+  .jumbotron-text h1
+    {
+        padding: 1em;
+        font-weight: 800;
+        font-size: 2.1rem;
+        /* background-color: aqua; */
+    }
+   
+    .jumbotron-text p
+    {
+        font-weight: 500;
+        font-size: 1.4rem;
+        /* background-color: bisque; */
+        padding: 1em;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    /* CSS rules for tablets */
+    /* Adjust the styles as needed */
+    
+    #jumbotron-background-image img 
+    {
+        max-width: 100%;
+        padding: .6em;
+        object-fit: contain;
+        margin-top: 100px;
+        display: block;
+        /* background-color: red; */
+        margin: 1em auto 0 auto;
+        /* animation: rotateAnimation 2s infinite alternate; */
+        /* transition: transform 2s ease-in-out; */
+    }
+    .jumbotron-text h1
+    {
+        padding: 1em;
+        font-weight: 800;
+        font-size: 2.1em;
+        /* background-color: aqua; */
+    }
+    .jumbotron-text p
+    {
+        font-weight: 500;
+        font-size: 1.4em;
+        /* background-color: bisque; */
+        padding: 1em;
+
+    }
+  }
+
+  @media (min-width: 1025px){
+    /* CSS rules for desktop screens */
+    /* Adjust the styles as needed */
+    
+    #jumbotron-background-image img 
+    {
+        /* max-width: 100%; */
+        width: 1000px;
+        padding: .6em;
+        object-fit: contain;
+        margin-top: 100px;
+        display: block;
+        /* background-color: red; */
+        margin: 1em auto 0 auto;
+        /* animation: rotateAnimation 2s infinite alternate; */
+        /* transition: transform 2s ease-in-out; */
+    }
+    /* .jumbotron-text
+    {
+        width: 80%;
+        margin: 0 auto;
+    } */
+    .jumbotron-text h1
+    {
+        padding: 1em 1em 0 1em;
+        font-weight: 800;
+        font-size: 2.6em;
+        /* background-color: aqua; */
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .jumbotron-text p
+    {
+        font-weight: 500;
+        font-size: 1.3em;
+        width: 70%;
+        margin: 0 auto;
+        /* background-color: bisque; */
+        padding: 0.7em 0;
+
+    }
+  }
+
+  
+
+
+
+
+
+  .new-section
+  {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+  }

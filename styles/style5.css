@@ -1,0 +1,31 @@
+footer .footer-header
+{
+    /* margin: 0 3em; */
+    background-image: linear-gradient(to right, rgb(58, 55, 55) , #fefdf0);
+    /* background-color: red; */
+    width: 100%;;
+    padding: 0.51em;
+}
+
+footer .icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 3em;
+    /* background-color: red; */
+}
+
+footer .footer-flex-text
+{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 3em;
+}
+
+footer .copyright-text
+{
+    text-align: center;
+    /* background-color: red; */
+}

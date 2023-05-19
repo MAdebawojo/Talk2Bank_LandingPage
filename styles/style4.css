@@ -1,0 +1,43 @@
+#waitlist-form
+{
+    background-color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+#waitlist-form h1
+{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#waitlist-form .waitlist-form-subheader
+{
+    font-size: 1.5rem;
+    color: #464646;
+
+    /* background-color: red; */
+}
+
+#waitlist-form .waitlist-button
+{
+    margin: 4em auto;
+    border: 1px solid #355E3B;
+    background-color: #355E3B;
+    border-radius: 45px;
+    /* min-width: 15%; */
+    /* width: 20%; */
+    width: 200px;
+    padding: 1em;
+}
+#waitlist-form .waitlist-button:hover
+{
+    background-color: #122014;
+}
+#waitlist-form .waitlist-button a
+{
+    
+    color: #ffff;
+    font-size: 1.3rem;
+}
+
