@@ -80,7 +80,7 @@ nav .logo {
 
 @media (max-width: 800px) {
     nav .nav-list {
-    height: 100vh;
+    height: 30vh;
     position: fixed;
     top: 0px;
     right: 0px;

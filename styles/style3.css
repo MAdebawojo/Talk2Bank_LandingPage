@@ -3,19 +3,7 @@
   padding: 2.3em;
   /* background-color: #11318a; */
 }
-.about-us-logo
-{
-    /* position: relative; */
-    /* bottom: -18px; */
-}
-/* #about-us-header
-{
-    background-color: purple;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 1.75rem;
-    color: #11318a;
-}  */
+
 #about-us-header
 {
     display: flex;
@@ -26,10 +14,6 @@
     width: 80%;
     margin: 0 auto;
     
-}
-#about-us-header img
-{
-    /* padding: 1.2em 1.2em 0 1.2em; */
 }
 
 .hr-container {
@@ -44,43 +28,6 @@
     border-bottom: 1px solid black;
 
   }
-/* .values
-{
-    padding: 3em;
-    margin-bottom: 2.5em;
-    color: #ffffff;
-    min-height: 300px;
-    max-width:100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-main #item-1
-{
-    background-image: url("./satisfaction_image.JPG");
-    background-size: cover;
-}
-main #item-2
-{
-    background-image: url("./goals_image.JPG");
-    background-size: cover;
-}
-main #item-3
-{
-    background-image: url("./innovation_logo.JPG");
-    background-size: cover;
-}
-
-@media (min-width: 1024px)
-{
-    .values
-    {
-        padding: 3em;
-        margin-bottom: 2.5em;
-        color: #ffffff;
-        min-height: 700px;
-        background-size: cover;
-    }
-} */
 
 main {
     width: 100%;
@@ -89,24 +36,33 @@ main {
   
   main .card-items {
     display: flex;
-    /* flex-direction: row; */
-    /* background-size: cover; */
+    background-size: contain;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 5em 0;
     margin-bottom: 45px;
+    /* background-color: #870d8b; */
+
   }
   
   main .card-items .card-text {
     /* background-color: #11318a; */
-    flex: 1;
-    margin-left: 2em;
-    padding: 1em;
+    /* margin: 1.7em; */
+    margin: 0 auto;
+    max-width: 70%;
+    /* margin: 0 auto; */
+    /* flex: 1; */
+    /* margin-left: 2em; */
+    /* padding: 1em; */
+    /* width: 80%; */
+    /* width: 100% */
   }
-  
+
   main .card-items .card-text h2
   {
+    /* background-color: #870d8b; */
     font-size: 3.1rem;
+    width: 80%;
   }
   main .card-items .card-text p {
     font-size: 1.5rem;
@@ -138,5 +94,10 @@ main {
       color: #fff;
       gap: 35px;
     }
+    main .card-items
+    {
+      width: 50%
+    }
+    
   }
   
