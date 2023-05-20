@@ -43,6 +43,11 @@ nav
     font-family: "Ground Contorl", cursive;
 }
 
+header nav .logo-container h1
+{
+    /* background-color: red; */
+    font-size: 2em;
+}
 nav .nav-list 
 {
     display: flex;
